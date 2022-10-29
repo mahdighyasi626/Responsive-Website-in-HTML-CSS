@@ -1,0 +1,211 @@
+/* styling the css for web */
+
+body {
+    margin: 0;
+}
+
+
+/* styling navbar */
+
+.navbar {
+    background-color: rgb(201, 248, 232);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 15px;
+}
+
+.navbar .first-menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbar .second-menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbar .first-menu ul li {
+    padding: 12px;
+    margin-right: 30px;
+}
+
+.navbar .second-menu ul li {
+    padding: 12px;
+}
+
+.navbar .first-menu ul li a,
+.navbar .second-menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .first-menu ul li a:hover,
+.navbar .second-menu ul li a:hover {
+    background: cadetblue;
+    border-radius: 3px;
+}
+
+.navbar .second-menu ul li a.link-border {
+    border-left: 2px solid rgb(130, 197, 175);
+    padding-left: 7px;
+}
+
+
+/* Styling the container */
+
+.container {
+    background: url(trip.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 70vh;
+    color: white;
+}
+
+.sub-container {
+    margin: 0;
+}
+
+.margin-top {
+    margin: 0;
+    line-height: 1px;
+}
+
+.sub-container {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+
+/* Styling the middle div */
+
+.middle-div {
+    height: 10vh;
+    width: 70%;
+    background: white;
+    margin-top: -45px;
+}
+
+.middle-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-div .third-menu ul {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 40px; */
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.middle-div .third-menu ul a {
+    /* margin-left: 70px; */
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.middle-div .forth-menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.middle-div .forth-menu ul li a {
+    text-decoration: none;
+    /* margin-left: 70px; */
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.availability {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+/* Styling the section */
+
+section {
+    background: rgb(245, 236, 236);
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section-one .section-one-header1 {
+    font-size: 75px;
+    margin-bottom: 0;
+    opacity: 0.1;
+}
+
+.section-one .section-one-header2 {
+    margin-top: -28px;
+    font-size: 28px;
+}
+
+.section-one-header3 {
+    margin-top: -17px;
+}
+
+.section-two {
+    width: 40%;
+}
+
+.ion-icons {
+    width: 60%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ion-icons svg:not(.svg1) {
+    border-left: 2px solid rgb(130, 197, 175);
+    padding-left: 98px;
+}
+
+.main {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -140px;
+}
+
+.main .first-pic {
+    width: 400px;
+    background: white;
+    margin-right: 10px;
+}
+
+.main .first-pic .text-pic {
+    text-align: center;
+    padding: 5px 20px;
+}
+
+.card-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
